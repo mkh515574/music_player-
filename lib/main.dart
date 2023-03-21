@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'home.dart';
+import 'features/play/view/play_view.dart';
+
+
+
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomeView(),
+      home: const PlayView(),
     );
   }
 }
